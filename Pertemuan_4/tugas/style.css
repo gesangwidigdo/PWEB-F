@@ -1,0 +1,16 @@
+.linkedin-link {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+th {
+    font-size: 32px;
+}
+
+p, td {
+    font-size: 18px;
+}

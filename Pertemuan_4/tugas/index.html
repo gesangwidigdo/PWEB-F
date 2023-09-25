@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesang Widigdo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark text-light border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">GW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#pendidikan">Pendidikan</a>
+                <a class="nav-link" href="#pengalaman">Pengalaman</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START PROFILE SECTION -->
+    <section class="profile">
+        <div class="container shadow-lg p-5 mt-5 bg-body-tertiary rounded-3">
+            <div class="row mt-5 mb-5 ml-5 align-items-center">
+                <div class="col-5 text-center">
+                    <img src="./src/myphoto.jpg" alt="Muhammad Gesang Ridho Widigdo" width="300px">
+                </div>
+                <div class="col-5">
+                    <h1>Muhammad Gesang Ridho Widigdo</h1>
+                    <p><b>gesangwidigdo@gmail.com | <a href="https://www.linkedin.com/in/muhammadgesang-ridho-widigdo-962b60195/" class="linkedin-link">https://www.linkedin.com/in/muhammadgesang-ridho-widigdo-962b60195/</a> | Surabaya, Indonesia</b></p>
+                    <hr/>
+                    <p>Saya adalah mahasiswa Departemen Teknik Informatika Institut Teknologi Sepuluh Nopember. Saya suka bereksplorasi dan mempelajari hal-hal baru yang belum pernah saya ketahui. Saya memiliki minat untuk berkarir sebagai Backend Developer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END PROFILE SECTION -->
+
+    <!-- START CAROUSEL -->
+    <div class="container shadow-lg mt-5 mb-5 p-0">
+        <div class="mt-5">
+            <div id="carouselExampleIndicators" class="carousel slide shadow-lg bg-body-tertiary">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./src/seminar-bst.jpg" class="d-block w-100" alt="Seminar Schematics BST">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./src/bootcamp-bst.JPG" class="d-block w-100" alt="Bootcamp Schematics BST">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- END CAROUSEL -->
+
+    <!-- START RIWAYAT PENDIDIKAN -->
+    <div class="container text-center" id="pendidikan">
+        <div class="row align-items-center">
+            <div class="col-sm-8 mx-auto">
+                <table class="table table-borderless">
+                    <thead class="text-center">
+                        <tr>
+                            <th colspan="2">Riwayat Pendidikan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Institut Teknologi Sepuluh Nopember</td>
+                            <td>2022 - Sekarang</td>
+                        </tr>
+                        <tr>
+                            <td>SMK Telkom Malang</td>
+                            <td>2019 - 2022</td>
+                        </tr>
+                        <tr>
+                            <td>SMPN 01 SUKODONO</td>
+                            <td>2016 - 2019</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- END RIWAYAT PENDIDIKAN -->
+
+    <!-- START EXPERIENCE -->
+    <div class="container text-center" id="pengalaman">
+        <div class="row align-items-center">
+            <div class="col-sm-8 mx-auto">
+                <table class="table table-borderless">
+                    <thead class="text-center">
+                        <tr>
+                            <th colspan="2">Pengalaman</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Schematics BST 2023</td>
+                            <td>Februari 2023 - Sekarang</td>
+                        </tr>
+                        <tr>
+                            <td>Moklet Education of Technology and Informatic Club</td>
+                            <td>September 2019 - Februari 2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- END EXPERIENCE -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
